@@ -5,7 +5,7 @@ import "./assets/css/style.css";
 
 import LogoImg from './assets/img/logo.png';
 
-import Carta from './comnponents/carta.js';
+import Flashcard from './comnponents/carta.js';
 
 let cartas = [
     { pergunta: "teste", resposta: "maçã", }, 
@@ -24,15 +24,11 @@ function App(){
                 <h1>zap recall</h1>
             </div>
 
-            {cartas.map((cartas, index) => <Carta key={"index"} index={index+1} />)}
+            {cartas.map((carta, index) => <Flashcard key={index} index={index+1} pergunta={carta.pergunta} resposta={carta.resposta}/>)}
 
 
             <div className='footer-concluidos'>
-                <div className='container-botoes'>
-                    <button>Não lembrei</button>
-                    <button>Quase não lembrei</button>
-                    <button>Zap!</button>
-                </div>
+                <p>0/4 respondidos</p>
             </div>
         </div>
     )

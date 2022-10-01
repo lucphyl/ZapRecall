@@ -1,3 +1,10 @@
+*{
+  --VERDE: #2FBE34;
+  --AMARELO: #FF922E;
+  --VERMELHO:#FF3030;
+  --CINZA: #333333 ;
+}
+
 .screen-container{
   background-color: #FB6B6B;
   width: 100vw;
@@ -72,6 +79,12 @@ h1 {
   CINZA = "#333333" 
 */
 
+.conteainer-botoes{
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin: 20px;
+}
 .container-botoes > button {
   width: 90px;
   font-family: 'Recursive';
@@ -140,4 +153,69 @@ h1 {
 
 .hidden {
   display:none;
+}
+
+.espaço-botoes{
+  margin:0 10%;
+  display: flex;
+  width:80%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.zap{
+  margin: 0 10%;
+  width: 90px;
+  font-family: 'Recursive';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #FFFFFF;
+  border-radius: 5px;
+  border: 1px solid var(--VERDE);
+  background-color: var(--VERDE);
+  padding:5px;
+}
+
+.quase{
+  margin: 0 10%;
+  width: 90px;
+  font-family: 'Recursive';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #FFFFFF;
+  border-radius: 5px;
+  border: 1px solid var(--AMARELO);
+  background-color: var(--AMARELO);
+  padding:5px;
+}
+
+.erro{
+  margin: 0 10%;
+  width: 90px;
+  font-family: 'Recursive';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #FFFFFF;
+  border-radius: 5px;
+  border: 1px solid var(--VERMELHO);
+  background-color: var(--VERMELHO);
+  padding:5px;
 }
