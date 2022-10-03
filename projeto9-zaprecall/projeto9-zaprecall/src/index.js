@@ -8,10 +8,10 @@ import Flashcard from './comnponents/carta.js';
 
 
 let cartas = [
-    { pergunta: "teste", resposta: "maçã", }, 
-    { pergunta: "teste2", resposta: "banana"}, 
-    { pergunta: "teste3", resposta: "mamão"}, 
-    { pergunta: "teste4", resposta: "laranja"}
+    { pergunta: "qual a data da independencia do Brasil ?", resposta: "7 de setembro de 1822", }, 
+    { pergunta: "quantas lordes das cinzas existem no dark souls 3 ?", resposta: "5, sendo eles: Ludleth of Courland, Abyss Watchers, Aldrich, Yhorm the Giant, Lothric"}, 
+    { pergunta: "never gonna give you up ?", resposta: "Never gonna let you down!"}, 
+    { pergunta: "fruta rica em calcio", resposta: "Banana"}
 ];
 let incremento = 0;
 
